@@ -4,7 +4,7 @@ class Hash
     array=[]
     arguments.each do |arg|
       self.each do |k, v|
-        if arg == arg
+        if arg == v
           array<<k
         end 
       end
