@@ -5,8 +5,10 @@ class Hash
     arguments.each do |arg|
       self.each do |k, v|
         if v == arg
-          array<<
+          array<<k
+        end 
+      end
     end
   end
-  end
+  array
 end
