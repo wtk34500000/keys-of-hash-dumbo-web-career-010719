@@ -3,7 +3,10 @@ class Hash
     # code goes here
     array=[]
     arguments.each do |arg|
-      self.do each 
+      self.each do |k, v|
+        if v == arg
+          array<<
+    end
   end
   end
 end
